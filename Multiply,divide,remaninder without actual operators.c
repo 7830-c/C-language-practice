@@ -36,7 +36,7 @@ return c;
 }
 int rem(int a,int b){
 
-while(a>b||a!=0){
+while(a>=b){
 a=a-b;
 }
 return a;
